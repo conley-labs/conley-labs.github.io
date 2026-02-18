@@ -1,0 +1,23 @@
+*~
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.sass-cache/
+*.swp
+*.swo
+*~
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/

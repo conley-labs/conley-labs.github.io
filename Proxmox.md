@@ -1,10 +1,15 @@
+---
+layout: default
+title: Proxmox Homelab
+---
+
 # Proxmox
 
 A journey into homelabbing using proxmox as the chosen hypervisor.
 
 ## Background
 
-Let's start with hardware. As someone who is looking to homelab as cheaply as possible, I am always on the hunt for something to get the job done without breaking the bank. That being the case, working in tech at a large corporation has some understated benefits. Namely, when I mentioned that I wanted to get into homelabbing, there was a member of my team ready to offer up some old hardware he had gotten for free along with way more storage than I'll ever need to go with it.
+Let's start with hardware. As someone that is looking to homelab as cheaply as possible, I am always on the hunt for something to get the job done without breaking the bank. That being the case, working in tech at a large corporation has some understated benefits. Namely, when I mentioned that I wanted to get into homelabbing, there was a member of my team ready to offer up some old hardware he had gotten for free along with way more storage than I'll ever need to go with it.
 
 Enter: my two new-to-me cisco UCS 240M3v2 hosts with dual Xeon processors and north of 19TB of hard drives installed!
 
@@ -125,10 +130,6 @@ I then ran the pve8to9 script that comes packaged with the pve 8.4 release to ch
 
 Then I got cold feet and decided that I needed to practice on another host before I would try it on my 'prod' cluster. The docs recommend this. Thinking about it, there was not really anything in the cluster that would be overly terrible if it were lost, but still. I cannibalized the PC my wife was no longer using *with her permission*, installed the same base version of pve on it, updated to 8.4, ran the pve8to9 script, and validated the entire procedure from start to finish. I also managed to make this happen while remotely managing the host via SSH after the proxmox install. I am really starting to get the hang of managing the network portions of this lab!
 
-After the upgrade was complete and validated, I proceeded to execute the steps on the two prox clusters. Both were completed without issues and the cluster was operable after the upgrade.
+After the upgrade was completed and validated, I proceeded to execute the steps on the two prox clusters. Both were completed without issues and the cluster was operable after the upgrade.
 
 After logging back in to the admin console post-upgrade, I was able to see the new dialogs in the UI to add OCI repo-based container images. I install Arch (base) as the first container. It launched without issues and the Arch command prompt was available when opening the console window for it. Great success!
-
-
-
-

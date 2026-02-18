@@ -1,0 +1,12 @@
+title: Conley Labs
+description: A journey into homelabbing and tech projects
+author: Conley Labs
+baseurl: ""
+url: "https://conley-labs.github.io"
+
+markdown: kramdown
+collections:
+  pages:
+    output: true
+
+permalink: /:title/
