@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default 
 title: Proxmox Homelab
 ---
 
@@ -133,3 +133,5 @@ Then I got cold feet and decided that I needed to practice on another host befor
 After the upgrade was completed and validated, I proceeded to execute the steps on the two prox clusters. Both were completed without issues and the cluster was operable after the upgrade.
 
 After logging back in to the admin console post-upgrade, I was able to see the new dialogs in the UI to add OCI repo-based container images. I install Arch (base) as the first container. It launched without issues and the Arch command prompt was available when opening the console window for it. Great success!
+
+..
